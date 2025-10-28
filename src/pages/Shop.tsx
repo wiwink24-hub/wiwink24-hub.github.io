@@ -24,29 +24,29 @@ import bag5 from "@assets/stock_images/premium_leather_back_90cb35ab.jpg";
 
 const Shop = () => {
   const products = [
-    { id: 1, name: "Premium Wireless Headphones", price: 299, image: audio1, category: "Audio" },
-    { id: 2, name: "Noise-Cancelling Earbuds", price: 179, image: audio2, category: "Audio" },
-    { id: 3, name: "Studio Monitor Headphones", price: 349, image: audio3, category: "Audio" },
-    { id: 4, name: "Sport Wireless Earbuds", price: 159, image: audio4, category: "Audio" },
-    { id: 5, name: "Over-Ear Bluetooth Headphones", price: 279, image: audio5, category: "Audio" },
+    { id: 1, name: "Premium Wireless Headphones", price: 299, image: audio1, category: "Audio", description: "Experience superior sound quality with our premium wireless headphones." },
+    { id: 2, name: "Noise-Cancelling Earbuds", price: 179, image: audio2, category: "Audio", description: "Compact yet powerful earbuds with advanced noise cancellation technology." },
+    { id: 3, name: "Studio Monitor Headphones", price: 349, image: audio3, category: "Audio", description: "Professional-grade studio headphones designed for audio engineers and musicians." },
+    { id: 4, name: "Sport Wireless Earbuds", price: 159, image: audio4, category: "Audio", description: "Designed for active lifestyles with secure fit and sweat resistance." },
+    { id: 5, name: "Over-Ear Bluetooth Headphones", price: 279, image: audio5, category: "Audio", description: "Luxurious over-ear headphones with plush cushions and exceptional comfort." },
     
-    { id: 6, name: "Luxury Automatic Watch", price: 599, image: accessory1, category: "Accessories" },
-    { id: 7, name: "Smart Fitness Watch", price: 399, image: accessory2, category: "Accessories" },
-    { id: 8, name: "Classic Chronograph Watch", price: 499, image: accessory3, category: "Accessories" },
-    { id: 9, name: "Premium Leather Watch", price: 549, image: accessory4, category: "Accessories" },
-    { id: 10, name: "Minimalist Designer Watch", price: 449, image: accessory5, category: "Accessories" },
+    { id: 6, name: "Luxury Automatic Watch", price: 599, image: accessory1, category: "Accessories", description: "Elegant timepiece crafted with precision. Features automatic movement and sapphire crystal glass." },
+    { id: 7, name: "Smart Fitness Watch", price: 399, image: accessory2, category: "Accessories", description: "Advanced smartwatch with comprehensive fitness tracking." },
+    { id: 8, name: "Classic Chronograph Watch", price: 499, image: accessory3, category: "Accessories", description: "Timeless chronograph design with precision quartz movement." },
+    { id: 9, name: "Premium Leather Watch", price: 549, image: accessory4, category: "Accessories", description: "Sophisticated watch with genuine leather strap and premium finishing." },
+    { id: 10, name: "Minimalist Designer Watch", price: 449, image: accessory5, category: "Accessories", description: "Clean, minimalist design that makes a statement." },
     
-    { id: 11, name: "Designer Running Sneakers", price: 199, image: footwear1, category: "Footwear" },
-    { id: 12, name: "Athletic Training Shoes", price: 159, image: footwear2, category: "Footwear" },
-    { id: 13, name: "Premium Casual Sneakers", price: 179, image: footwear3, category: "Footwear" },
-    { id: 14, name: "High-Performance Running Shoes", price: 219, image: footwear4, category: "Footwear" },
-    { id: 15, name: "Street Style Sneakers", price: 189, image: footwear5, category: "Footwear" },
+    { id: 11, name: "Designer Running Sneakers", price: 199, image: footwear1, category: "Footwear", description: "Step up your style with these premium designer sneakers." },
+    { id: 12, name: "Athletic Training Shoes", price: 159, image: footwear2, category: "Footwear", description: "High-performance training shoes engineered for athletes." },
+    { id: 13, name: "Premium Casual Sneakers", price: 179, image: footwear3, category: "Footwear", description: "Versatile casual sneakers perfect for everyday wear." },
+    { id: 14, name: "High-Performance Running Shoes", price: 219, image: footwear4, category: "Footwear", description: "Engineered for serious runners with advanced cushioning technology." },
+    { id: 15, name: "Street Style Sneakers", price: 189, image: footwear5, category: "Footwear", description: "Bold street style sneakers that make a statement." },
     
-    { id: 16, name: "Premium Leather Backpack", price: 249, image: bag1, category: "Bags" },
-    { id: 17, name: "Travel Duffel Bag", price: 199, image: bag2, category: "Bags" },
-    { id: 18, name: "Professional Laptop Bag", price: 179, image: bag3, category: "Bags" },
-    { id: 19, name: "Weekend Travel Backpack", price: 219, image: bag4, category: "Bags" },
-    { id: 20, name: "Executive Business Bag", price: 269, image: bag5, category: "Bags" },
+    { id: 16, name: "Premium Leather Backpack", price: 249, image: bag1, category: "Bags", description: "Stylish and functional backpack perfect for daily commutes and travel." },
+    { id: 17, name: "Travel Duffel Bag", price: 199, image: bag2, category: "Bags", description: "Spacious duffel bag ideal for weekend getaways and gym sessions." },
+    { id: 18, name: "Professional Laptop Bag", price: 179, image: bag3, category: "Bags", description: "Professional laptop bag designed for business travelers." },
+    { id: 19, name: "Weekend Travel Backpack", price: 219, image: bag4, category: "Bags", description: "Versatile travel backpack perfect for short trips and daily use." },
+    { id: 20, name: "Executive Business Bag", price: 269, image: bag5, category: "Bags", description: "Sophisticated executive bag crafted from premium leather." },
   ];
 
   return (

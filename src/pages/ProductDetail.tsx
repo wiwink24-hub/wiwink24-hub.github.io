@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { ShoppingCart, ArrowLeft } from "lucide-react";
+import { useCart } from "@/contexts/CartContext";
 import audio1 from "@assets/stock_images/premium_wireless_hea_a7d4c879.jpg";
 import audio2 from "@assets/stock_images/premium_wireless_hea_7871df30.jpg";
 import audio3 from "@assets/stock_images/premium_wireless_hea_8e26fc52.jpg";
@@ -27,6 +28,7 @@ import { toast } from "sonner";
 
 const ProductDetail = () => {
   const { id } = useParams();
+  const { addToCart } = useCart();
 
   const products = [
     {
@@ -226,7 +228,17 @@ const ProductDetail = () => {
   }
 
   const handleAddToCart = () => {
-    toast.success("Added to cart successfully!");
+    if (product) {
+      addToCart({
+        id: product.id,
+        name: product.name,
+        price: product.price,
+        image: product.image,
+        category: product.category,
+        description: product.description,
+      });
+      toast.success(`${product.name} added to cart!`);
+    }
   };
 
   return (

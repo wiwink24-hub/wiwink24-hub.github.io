@@ -11,10 +11,10 @@ import product4 from "@/assets/product-4.jpg";
 
 const Home = () => {
   const featuredProducts = [
-    { id: 1, name: "Premium Headphones", price: 299, image: product1, category: "Audio" },
-    { id: 2, name: "Luxury Watch", price: 599, image: product2, category: "Accessories" },
-    { id: 3, name: "Designer Sneakers", price: 199, image: product3, category: "Footwear" },
-    { id: 4, name: "Premium Backpack", price: 149, image: product4, category: "Bags" },
+    { id: 1, name: "Premium Headphones", price: 299, image: product1, category: "Audio", description: "Experience superior sound quality with our premium wireless headphones." },
+    { id: 2, name: "Luxury Watch", price: 599, image: product2, category: "Accessories", description: "Elegant timepiece crafted with precision and sapphire crystal glass." },
+    { id: 3, name: "Designer Sneakers", price: 199, image: product3, category: "Footwear", description: "Step up your style with these premium designer sneakers." },
+    { id: 4, name: "Premium Backpack", price: 149, image: product4, category: "Bags", description: "Stylish and functional backpack perfect for daily use." },
   ];
 
   return (
